@@ -18,7 +18,7 @@ title_DataFrame=pd.DataFrame(title_list, columns=['Student','Course','Section','
 'Assignment 2 Marks','Assignment 3 Marks','Assignment 4 Marks','Assignment 5 Marks','Total'])
 
 
-########## Specify the name of the column based on which the spilt needs to be performed ##########
+########## Specify the name of the column based on which the split needs to be performed ##########
 for section in fileData['College_Section_Name'].unique():
     temp_DataFrame=(fileData[ fileData['College_Section_Name']==section])
 
