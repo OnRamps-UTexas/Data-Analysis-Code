@@ -4,10 +4,10 @@ fileData=pd.read_excel('Sample DataSet.xlsx')
 
 fileData.rename(columns={'University' : 'Teacher'}, inplace=True)
 
-#for loop in range(0,fileData['Teacher'].count()):
-#    temp_String=str(fileData['Teacher'].iloc[loop])
-#    temp_String=temp_String[:-2]
-#    fileData['Teacher'].iloc[loop]=temp_String
+for loop in range(0,fileData['Teacher'].count()):
+    temp_String=str(fileData['Teacher'].iloc[loop])
+    temp_String=temp_String[:-2]
+    fileData['Teacher'].iloc[loop]=temp_String
 
 
 counter=0
