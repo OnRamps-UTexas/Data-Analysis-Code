@@ -11,7 +11,7 @@ for loop in range(0,fileData['Section'].count()):
     fileData['Section'].iloc[loop]=temp_String
 
 
-########## Specify the name of the column based on which the spilt needs to be performed ##########
+########## Specify the name of the column based on which the split needs to be performed ##########
 for section in fileData['Section'].unique():
     temp_DataFrame=(fileData[fileData['Section']==section])
 
